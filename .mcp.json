@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "home-staging": {
+      "command": "python3",
+      "args": ["home-staging-mcp/server.py"],
+      "env": {
+        "POLLINATIONS_API_KEY": "${POLLINATIONS_API_KEY:-}",
+        "HOME_STAGING_OUTPUT_DIR": "./staging-output"
+      }
+    }
+  }
+}
